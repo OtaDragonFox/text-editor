@@ -1,6 +1,5 @@
 #include "text_editor.h"
 #include <logger.h>
-#include <corecrt_malloc.h>
 
 
 text_editor* text_editor::m_text_editor = nullptr;
@@ -22,5 +21,5 @@ bool text_editor::startup(){
 
 void text_editor::shutdown()
 {
-	free(application_window);
+	delete(application_window);
 }
