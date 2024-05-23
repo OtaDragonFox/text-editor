@@ -1,3 +1,6 @@
 [submodule "deps/LibLogLaugh"]
 	path = deps/LibLogLaugh
 	url = https://github.com/OtaDragonFox/LibLogLaugh
+[submodule "deps/glfw"]
+	path = deps/glfw
+	url = https://github.com/TheCherno/glfw

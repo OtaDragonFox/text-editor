@@ -21,7 +21,7 @@ IncludeDir = {}
 IncludeDir["GLFW"] = "deps/glfw/include"
 IncludeDir["Glad"] =  "deps/glad/include"
 IncludeDir["glm"] =  "deps/glm"
-IncludeDir["LLL"] = "deps/LibLogLaugh/src"
+IncludeDir["LibLogLaugh"] = "deps/LibLogLaugh/include"
 IncludeDir["freetype"] =  "deps/freetype/include"
 
 
@@ -62,7 +62,7 @@ project "text_editor"
         "%{IncludeDir.glm}",
         "%{IncludeDir.Glad}",
         "%{IncludeDir.freetype}",
-        "%{IncludeDir.LLL}"
+        "%{IncludeDir.LibLogLaugh}"
 
     }
     libdirs 
@@ -76,7 +76,6 @@ project "text_editor"
         "opengl32",
         "freetype",
         "LibLogLaugh"
-
     }
 
     filter "system:windows"
