@@ -1,0 +1,3 @@
+[submodule "deps/LibLogLaugh"]
+	path = deps/LibLogLaugh
+	url = https://github.com/OtaDragonFox/LibLogLaugh

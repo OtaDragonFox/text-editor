@@ -1,0 +1,3 @@
+This was a pain to setup. Why at the current time it only includes the x64 binaries.
+I really dont know why i struggel with this...
+Needs to be fixed to build dependent  on system settings

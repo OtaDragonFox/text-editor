@@ -1,0 +1,13 @@
+# Binaries
+**/bin/
+bin-int/
+
+*.log
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+*.vsidx
+*.ipch
